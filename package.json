@@ -1,7 +1,7 @@
 {
   "name": "steel-weight-calc",
   "version": "0.1.0",
-  "homepage": "https://pshubham4.github.io/steel-weight-calc/",
+  "homepage": "https://pshubham4.github.io/steel-weight-calc",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -17,12 +17,11 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
