@@ -24,7 +24,7 @@ function App() {
 
   <Navbar bg="dark" variant="dark">
   <NavItem>
-    <Link  to='/' className='link'> Home </Link>
+    <Link  to='/steel-weight-calc' className='link'> Home </Link>
     <Link  to='/Calc' className='link'> Calculator </Link>
     </NavItem>
     </Navbar>
@@ -32,7 +32,7 @@ function App() {
       <div className='container'>
         <Routes>
 
-        <Route path="/" element={<Home/>}/>
+        <Route path="/steel-weight-calc" element={<Home/>}/>
         <Route path="/Calc" element={<Calculator/>}/>
 
         </Routes>

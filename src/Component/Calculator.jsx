@@ -7,7 +7,9 @@ import { Button, Alert } from 'react-bootstrap'
 
 const Calculator = () => {
 
-    const [state, setState] = useState(useContext(Mycontext))
+    let thisState = useContext(Mycontext)
+
+    const [state, setState] = useState(thisState)
     const data = useContext(Mycontext).data
     const input = useRef();
 
@@ -80,7 +82,6 @@ const Calculator = () => {
                     }
                 </select>
 
-                {/* <span> {sizeHandler(state,data,sizeArray) ? null : "Please Select Section type first.."}</span> */}
 
             </div>
 
