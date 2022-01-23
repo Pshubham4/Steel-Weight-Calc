@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/steel-weight-calc/static/css/main.0e14e5cc.css",
-    "main.js": "/steel-weight-calc/static/js/main.313ba854.js",
+    "main.js": "/steel-weight-calc/static/js/main.be502a9a.js",
     "index.html": "/steel-weight-calc/index.html",
     "main.0e14e5cc.css.map": "/steel-weight-calc/static/css/main.0e14e5cc.css.map",
-    "main.313ba854.js.map": "/steel-weight-calc/static/js/main.313ba854.js.map"
+    "main.be502a9a.js.map": "/steel-weight-calc/static/js/main.be502a9a.js.map"
   },
   "entrypoints": [
     "static/css/main.0e14e5cc.css",
-    "static/js/main.313ba854.js"
+    "static/js/main.be502a9a.js"
   ]
 }
